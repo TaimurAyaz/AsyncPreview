@@ -2,21 +2,21 @@
 //  AsyncPreview.swift
 //  Circuit
 //
-//  Created by Alt on 2024-03-09.
+//  Created by TaimurAyaz on 2024-03-09.
 //
 
 import Foundation
 import SwiftUI
 
-struct AsyncPreview<V: View, M>: View {
+public struct AsyncPreview<V: View, M>: View {
     
-    var view: (M) -> V
-    var model: () async throws -> M?
+    public var view: (M) -> V
+    public var model: () async throws -> M?
     
-    @State internal var internalModel: M?
-    @State internal var error: Error?
+    @State private var internalModel: M?
+    @State private var error: Error?
     
-    var body: some View {
+    public var body: some View {
         internalBody
         .task {
             do {
@@ -29,7 +29,7 @@ struct AsyncPreview<V: View, M>: View {
     }
     
     @ViewBuilder
-    internal var internalBody: some View {
+    private var internalBody: some View {
         if let internalModel {
             view(internalModel)
         }

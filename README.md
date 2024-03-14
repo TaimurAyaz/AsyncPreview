@@ -13,3 +13,10 @@ Preview views with asynchronous dependencies, on Xcode canvas.
     }
 }
 ```
+
+## Installation
+
+### Swift Package Manager
+- On XCode, select `File` > `Add Package Dependencies...`
+- Search for `https://github.com/TaimurAyaz/AsyncPreview.git`
+- Add package
