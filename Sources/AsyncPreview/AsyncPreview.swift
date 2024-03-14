@@ -28,6 +28,11 @@ public struct AsyncPreview<V: View, M>: View {
         }
     }
     
+    public init(view: @escaping (M) -> V, model: @escaping () -> M?) {
+        self.view = view
+        self.model = model
+    }
+    
     @ViewBuilder
     private var internalBody: some View {
         if let internalModel {
