@@ -28,7 +28,7 @@ public struct AsyncPreview<V: View, M>: View {
         }
     }
     
-    public init(view: @escaping (M) -> V, model: @escaping () -> M?) {
+    public init(view: @escaping (M) -> V, model: @escaping () async throws -> M?) {
         self.view = view
         self.model = model
     }
