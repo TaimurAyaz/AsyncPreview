@@ -1,4 +1,4 @@
-![Icon](https://github.com/TaimurAyaz/AsyncPreview/assets/7026217/3e5bf21b-d81a-4e04-a35f-1c26639bd5fc)
+![Icon](https://github.com/TaimurAyaz/AsyncPreview/assets/7026217/1496833c-2c83-460e-a026-e5a0469db4bb)
 
 ## AsyncPreview
 Preview views with asynchronous dependencies, on Xcode canvas.
