@@ -1,8 +1,9 @@
-# AsyncPreview
+![Icon](https://github.com/TaimurAyaz/AsyncPreview/assets/7026217/1496833c-2c83-460e-a026-e5a0469db4bb)
 
+## AsyncPreview
 Preview views with asynchronous dependencies, on Xcode canvas.
 
-## Usage
+### Usage
 
 ```
 #Preview {
@@ -14,9 +15,9 @@ Preview views with asynchronous dependencies, on Xcode canvas.
 }
 ```
 
-## Installation
+### Installation
 
-### Swift Package Manager
+#### Swift Package Manager
 - On XCode, select `File` > `Add Package Dependencies...`
 - Search for `https://github.com/TaimurAyaz/AsyncPreview.git`
 - Add package
